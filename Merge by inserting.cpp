@@ -1,7 +1,11 @@
 /*
-Merge by Inserting is a variation of merge sort in which we make change in the merge part of merge sort. The right part of the array is inserted into the left part of the array. That is the elements in the right part of the array has to be insered into the sorted array which is  the left part of the array
+Merge by Inserting is a variation of merge sort in which we make change in the merge part of merge sort. The right part of the array is inserted into 
+the left part of the array. That is the elements in the right part of the array has to be insered into the sorted array which is  the left part of the 
+array
 
-For example, consider an array of elements with first four elements as left part and second four elements as right part. Left part and right part are sorted by themselves. In the merge step, insert the elements one by one in the right part into the left part. The left part will keep on increasing in length and will become whole array at the end. Consider the elements 1, 4, 7, 12, 2, 5, 8, 14.
+For example, consider an array of elements with first four elements as left part and second four elements as right part. Left part and right part are 
+sorted by themselves. In the merge step, insert the elements one by one in the right part into the left part. The left part will keep on increasing in 
+length and will become whole array at the end. Consider the elements 1, 4, 7, 12, 2, 5, 8, 14.
 
 Left part consist of 1, 4, 7, 12
 
