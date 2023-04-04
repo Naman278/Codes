@@ -68,6 +68,7 @@ int main()
         pq.push(a);
     }
     recursive_activity_selector(pq,v);
+    //reversing vector
     for (auto first = v.begin(),last=v.end()-1; first<last; first++,last--) {
         swap(*first, *last);
     }
